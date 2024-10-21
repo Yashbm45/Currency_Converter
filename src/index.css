@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    height: 100vh;
+    background: url("../images/currency.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.innerDiv{
+    background-color:rgba(240, 248, 255, 0.712);
+}
+select, option{
+  font-weight: 500;
+}
